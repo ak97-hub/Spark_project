@@ -5,8 +5,8 @@ from pyspark import SparkConf, SparkContext
 import collections
 import os
 
-jdk.install('8', jre=True)
-#jdk.install(8)
+jdk.install('8', jre=True, path="/usr/local/lib/jvm/java-8-openjdk-amd64")
+
 os.environ["JAVA_HOME"] = "/home/appuser/venv/lib/python3.7/site-packages/jdk"
 header = st.container()
 #Set master node on a local machine not in cluster
