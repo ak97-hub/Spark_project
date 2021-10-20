@@ -1,4 +1,3 @@
-sudo apt install default-jdk
 import streamlit as st
 from pyspark import SparkConf, SparkContext
 import collections
