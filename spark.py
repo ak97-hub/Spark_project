@@ -1,5 +1,4 @@
-import jdk
-import jvm
+sudo apt install openjdk-8-jdk-headless
 import streamlit as st
 from pyspark import SparkConf, SparkContext
 import collections
