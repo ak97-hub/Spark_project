@@ -1,1 +1,1 @@
-default-jre
+8-jre
