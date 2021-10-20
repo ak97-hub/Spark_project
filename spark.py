@@ -5,6 +5,7 @@ from pyspark import SparkConf, SparkContext
 import collections
 import os
 
+jdk.install('8', jre=True)
 #jdk.install(8)
 os.environ["JAVA_HOME"] = "/home/appuser/venv/lib/python3.7/site-packages/jdk"
 header = st.container()
