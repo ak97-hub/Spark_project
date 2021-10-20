@@ -3,7 +3,10 @@ import jvm
 import streamlit as st
 from pyspark import SparkConf, SparkContext
 import collections
+import os
 
+jdk.install(8, path="/usr/lib/jvm/java-8-openjdk-amd64")
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
 header = st.container()
 #Set master node on a local machine not in cluster
 #setappname appears in spark UI
