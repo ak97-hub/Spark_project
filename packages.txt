@@ -1,1 +1,1 @@
-jre==8
+openjdk-8-jre
